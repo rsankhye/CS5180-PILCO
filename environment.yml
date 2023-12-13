@@ -1,0 +1,22 @@
+name: CS5180-PILCO
+channels:
+  - defaults
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy=1.24.3
+  - pytorch=2.1.0=*cuda*
+  - cudatoolkit
+  - matplotlib=3.6
+  - scikit-learn=1.2.2
+  - imageio=2.26.0
+  - ffmpeg
+  - cvxpy
+  - ipykernel
+  - pip:
+    - gym==0.17.3
+    - gpytorch
+    - imageio[ffmpeg]
